@@ -1,6 +1,6 @@
 package com.gittamonk.spark
 import com.typesafe.scalalogging.{LazyLogging, Logger}
-import org.apache.spark.sql
+import org.apache.spark.sql.Sp
 
 case class AvroToParquet(sparkSession: SparkSession)  {
 
