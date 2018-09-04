@@ -1,1 +1,0 @@
-# ClassExamplesScalaCode1

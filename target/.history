@@ -1,2 +1,0 @@
-console
-;reload; set _root_.org.jetbrains.sbt.StructureKeys.sbtStructureOptions in Global := "download resolveClassifiers resolveSbtClassifiers" ;*/*:dumpStructureTo C:/Users/ext-sunnyj/AppData/Local/Temp/sbt-structure.xml
