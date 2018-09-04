@@ -4,7 +4,7 @@
 		module="spark-scala-hadoop$sources_2.11"
 		revision="0.1"
 		status="integration"
-		publication="20180904112512"
+		publication="20180904121444"
 	/>
 	<configurations>
 		<conf name="compile" visibility="public" description=""/>
@@ -458,6 +458,9 @@
 		</dependency>
 		<dependency org="javax.servlet.jsp" name="jsp-api" rev="2.1" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile)">
 			<artifact name="jsp-api" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="com.github.scopt" name="scopt_2.11" rev="3.5.0" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile)">
+			<artifact name="scopt_2.11" type="src" ext="jar" conf="sources" e:classifier="sources"/>
 		</dependency>
 		<dependency org="commons-codec" name="commons-codec" rev="1.4" transitive="false" conf="runtime->default(compile)">
 			<artifact name="commons-codec" type="src" ext="jar" conf="sources" e:classifier="sources"/>

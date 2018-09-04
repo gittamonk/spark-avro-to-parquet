@@ -7,14 +7,29 @@
 		revision="0.1"
 		conf="compile"
 		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool"
-		date="20180904112512"/>
+		date="20180904121444"/>
 	<dependencies>
+		<module organisation="com.github.scopt" name="scopt_2.11">
+			<revision name="3.5.0" status="release" pubdate="20160612053600" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/scopt/scopt" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="145">
+				<license name="MIT License" url="http://www.opensource.org/licenses/mit-license.php"/>
+				<metadata-artifact status="no" details="" size="2704" time="0" location="C:\Users\ext-sunnyj\.ivy2\cache\com.github.scopt\scopt_2.11\ivy-3.5.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/github/scopt/scopt_2.11/3.5.0/scopt_2.11-3.5.0.pom"/>
+				<caller organisation="spark-scala-hadoop" name="spark-scala-hadoop$sources_2.11" conf="compile" rev="3.5.0" rev-constraint-default="3.5.0" rev-constraint-dynamic="3.5.0" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="scopt_2.11" type="jar" ext="jar" status="no" details="" size="144458" time="0" location="C:\Users\ext-sunnyj\.ivy2\cache\com.github.scopt\scopt_2.11\jars\scopt_2.11-3.5.0.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/github/scopt/scopt_2.11/3.5.0/scopt_2.11-3.5.0.jar"/>
+					</artifact>
+					<artifact name="scopt_2.11" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="7753" time="1250" location="C:\Users\ext-sunnyj\.ivy2\cache\com.github.scopt\scopt_2.11\srcs\scopt_2.11-3.5.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/github/scopt/scopt_2.11/3.5.0/scopt_2.11-3.5.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
 		<module organisation="org.apache.hadoop" name="hadoop-common">
 			<revision name="2.7.1" status="release" pubdate="20150629064729" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="115">
 				<metadata-artifact status="no" details="" size="43135" time="0" location="C:\Users\ext-sunnyj\.ivy2\cache\org.apache.hadoop\hadoop-common\ivy-2.7.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-common/2.7.1/hadoop-common-2.7.1.pom"/>
 				<caller organisation="spark-scala-hadoop" name="spark-scala-hadoop$sources_2.11" conf="compile" rev="2.7.1" rev-constraint-default="2.7.1" rev-constraint-dynamic="2.7.1" callerrev="0.1"/>
 				<artifacts>
-					<artifact name="hadoop-common" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="2074080" time="2938" location="C:\Users\ext-sunnyj\.ivy2\cache\org.apache.hadoop\hadoop-common\srcs\hadoop-common-2.7.1-sources.jar">
+					<artifact name="hadoop-common" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="2074080" time="0" location="C:\Users\ext-sunnyj\.ivy2\cache\org.apache.hadoop\hadoop-common\srcs\hadoop-common-2.7.1-sources.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-common/2.7.1/hadoop-common-2.7.1-sources.jar"/>
 					</artifact>
 					<artifact name="hadoop-common" type="jar" ext="jar" status="no" details="" size="3431544" time="0" location="C:\Users\ext-sunnyj\.ivy2\cache\org.apache.hadoop\hadoop-common\jars\hadoop-common-2.7.1.jar">
@@ -28,7 +43,7 @@
 				<metadata-artifact status="no" details="" size="5194" time="0" location="C:\Users\ext-sunnyj\.ivy2\cache\org.apache.htrace\htrace-core\ivy-3.1.0-incubating.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/htrace/htrace-core/3.1.0-incubating/htrace-core-3.1.0-incubating.pom"/>
 				<caller organisation="spark-scala-hadoop" name="spark-scala-hadoop$sources_2.11" conf="compile" rev="3.1.0-incubating" rev-constraint-default="3.1.0-incubating" rev-constraint-dynamic="3.1.0-incubating" callerrev="0.1"/>
 				<artifacts>
-					<artifact name="htrace-core" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="37546" time="1297" location="C:\Users\ext-sunnyj\.ivy2\cache\org.apache.htrace\htrace-core\srcs\htrace-core-3.1.0-incubating-sources.jar">
+					<artifact name="htrace-core" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="37546" time="0" location="C:\Users\ext-sunnyj\.ivy2\cache\org.apache.htrace\htrace-core\srcs\htrace-core-3.1.0-incubating-sources.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/htrace/htrace-core/3.1.0-incubating/htrace-core-3.1.0-incubating-sources.jar"/>
 					</artifact>
 					<artifact name="htrace-core" type="jar" ext="jar" status="no" details="" size="1475955" time="0" location="C:\Users\ext-sunnyj\.ivy2\cache\org.apache.htrace\htrace-core\jars\htrace-core-3.1.0-incubating.jar">
@@ -43,7 +58,7 @@
 				<metadata-artifact status="no" details="" size="2422" time="0" location="C:\Users\ext-sunnyj\.ivy2\cache\com.google.code.findbugs\jsr305\ivy-3.0.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/google/code/findbugs/jsr305/3.0.0/jsr305-3.0.0.pom"/>
 				<caller organisation="spark-scala-hadoop" name="spark-scala-hadoop$sources_2.11" conf="compile" rev="3.0.0" rev-constraint-default="3.0.0" rev-constraint-dynamic="3.0.0" callerrev="0.1"/>
 				<artifacts>
-					<artifact name="jsr305" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="362" time="1281" location="C:\Users\ext-sunnyj\.ivy2\cache\com.google.code.findbugs\jsr305\srcs\jsr305-3.0.0-sources.jar">
+					<artifact name="jsr305" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="362" time="0" location="C:\Users\ext-sunnyj\.ivy2\cache\com.google.code.findbugs\jsr305\srcs\jsr305-3.0.0-sources.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/google/code/findbugs/jsr305/3.0.0/jsr305-3.0.0-sources.jar"/>
 					</artifact>
 				</artifacts>
@@ -54,10 +69,10 @@
 				<metadata-artifact status="no" details="" size="16268" time="0" location="C:\Users\ext-sunnyj\.ivy2\cache\org.apache.curator\curator-recipes\ivy-2.7.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/curator/curator-recipes/2.7.1/curator-recipes-2.7.1.pom"/>
 				<caller organisation="spark-scala-hadoop" name="spark-scala-hadoop$sources_2.11" conf="compile" rev="2.7.1" rev-constraint-default="2.7.1" rev-constraint-dynamic="2.7.1" callerrev="0.1"/>
 				<artifacts>
-					<artifact name="curator-recipes" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="154195" time="1359" location="C:\Users\ext-sunnyj\.ivy2\cache\org.apache.curator\curator-recipes\srcs\curator-recipes-2.7.1-sources.jar">
+					<artifact name="curator-recipes" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="154195" time="0" location="C:\Users\ext-sunnyj\.ivy2\cache\org.apache.curator\curator-recipes\srcs\curator-recipes-2.7.1-sources.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/curator/curator-recipes/2.7.1/curator-recipes-2.7.1-sources.jar"/>
 					</artifact>
-					<artifact name="curator-recipes" type="jar" ext="jar" status="successful" details="" size="270342" time="922" location="C:\Users\ext-sunnyj\.ivy2\cache\org.apache.curator\curator-recipes\jars\curator-recipes-2.7.1.jar">
+					<artifact name="curator-recipes" type="jar" ext="jar" status="no" details="" size="270342" time="0" location="C:\Users\ext-sunnyj\.ivy2\cache\org.apache.curator\curator-recipes\jars\curator-recipes-2.7.1.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/curator/curator-recipes/2.7.1/curator-recipes-2.7.1.jar"/>
 					</artifact>
 				</artifacts>
@@ -72,7 +87,7 @@
 					<artifact name="jsch" type="jar" ext="jar" status="no" details="" size="185746" time="0" location="C:\Users\ext-sunnyj\.ivy2\cache\com.jcraft\jsch\jars\jsch-0.1.42.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/jcraft/jsch/0.1.42/jsch-0.1.42.jar"/>
 					</artifact>
-					<artifact name="jsch" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="211244" time="1422" location="C:\Users\ext-sunnyj\.ivy2\cache\com.jcraft\jsch\srcs\jsch-0.1.42-sources.jar">
+					<artifact name="jsch" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="211244" time="0" location="C:\Users\ext-sunnyj\.ivy2\cache\com.jcraft\jsch\srcs\jsch-0.1.42-sources.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/jcraft/jsch/0.1.42/jsch-0.1.42-sources.jar"/>
 					</artifact>
 				</artifacts>
@@ -86,7 +101,7 @@
 					<artifact name="hadoop-auth" type="jar" ext="jar" status="no" details="" size="70688" time="0" location="C:\Users\ext-sunnyj\.ivy2\cache\org.apache.hadoop\hadoop-auth\jars\hadoop-auth-2.7.1.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-auth/2.7.1/hadoop-auth-2.7.1.jar"/>
 					</artifact>
-					<artifact name="hadoop-auth" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="54821" time="1312" location="C:\Users\ext-sunnyj\.ivy2\cache\org.apache.hadoop\hadoop-auth\srcs\hadoop-auth-2.7.1-sources.jar">
+					<artifact name="hadoop-auth" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="54821" time="0" location="C:\Users\ext-sunnyj\.ivy2\cache\org.apache.hadoop\hadoop-auth\srcs\hadoop-auth-2.7.1-sources.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-auth/2.7.1/hadoop-auth-2.7.1-sources.jar"/>
 					</artifact>
 				</artifacts>
@@ -97,10 +112,10 @@
 				<metadata-artifact status="no" details="" size="16115" time="0" location="C:\Users\ext-sunnyj\.ivy2\cache\org.apache.curator\curator-framework\ivy-2.7.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/curator/curator-framework/2.7.1/curator-framework-2.7.1.pom"/>
 				<caller organisation="spark-scala-hadoop" name="spark-scala-hadoop$sources_2.11" conf="compile" rev="2.7.1" rev-constraint-default="2.7.1" rev-constraint-dynamic="2.7.1" callerrev="0.1"/>
 				<artifacts>
-					<artifact name="curator-framework" type="jar" ext="jar" status="successful" details="" size="186273" time="843" location="C:\Users\ext-sunnyj\.ivy2\cache\org.apache.curator\curator-framework\jars\curator-framework-2.7.1.jar">
+					<artifact name="curator-framework" type="jar" ext="jar" status="no" details="" size="186273" time="0" location="C:\Users\ext-sunnyj\.ivy2\cache\org.apache.curator\curator-framework\jars\curator-framework-2.7.1.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/curator/curator-framework/2.7.1/curator-framework-2.7.1.jar"/>
 					</artifact>
-					<artifact name="curator-framework" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="118723" time="1313" location="C:\Users\ext-sunnyj\.ivy2\cache\org.apache.curator\curator-framework\srcs\curator-framework-2.7.1-sources.jar">
+					<artifact name="curator-framework" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="118723" time="0" location="C:\Users\ext-sunnyj\.ivy2\cache\org.apache.curator\curator-framework\srcs\curator-framework-2.7.1-sources.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/curator/curator-framework/2.7.1/curator-framework-2.7.1-sources.jar"/>
 					</artifact>
 				</artifacts>
@@ -111,10 +126,10 @@
 				<metadata-artifact status="no" details="" size="16163" time="0" location="C:\Users\ext-sunnyj\.ivy2\cache\org.apache.curator\curator-client\ivy-2.7.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/curator/curator-client/2.7.1/curator-client-2.7.1.pom"/>
 				<caller organisation="spark-scala-hadoop" name="spark-scala-hadoop$sources_2.11" conf="compile" rev="2.7.1" rev-constraint-default="2.7.1" rev-constraint-dynamic="2.7.1" callerrev="0.1"/>
 				<artifacts>
-					<artifact name="curator-client" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="53722" time="1297" location="C:\Users\ext-sunnyj\.ivy2\cache\org.apache.curator\curator-client\srcs\curator-client-2.7.1-sources.jar">
+					<artifact name="curator-client" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="53722" time="0" location="C:\Users\ext-sunnyj\.ivy2\cache\org.apache.curator\curator-client\srcs\curator-client-2.7.1-sources.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/curator/curator-client/2.7.1/curator-client-2.7.1-sources.jar"/>
 					</artifact>
-					<artifact name="curator-client" type="jar" ext="jar" status="successful" details="" size="69500" time="1813" location="C:\Users\ext-sunnyj\.ivy2\cache\org.apache.curator\curator-client\jars\curator-client-2.7.1.jar">
+					<artifact name="curator-client" type="jar" ext="jar" status="no" details="" size="69500" time="0" location="C:\Users\ext-sunnyj\.ivy2\cache\org.apache.curator\curator-client\jars\curator-client-2.7.1.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/curator/curator-client/2.7.1/curator-client-2.7.1.jar"/>
 					</artifact>
 				</artifacts>
@@ -196,7 +211,7 @@
 				<metadata-artifact status="no" details="" size="4714" time="0" location="C:\Users\ext-sunnyj\.ivy2\cache\org.slf4j\slf4j-api\ivy-1.7.10.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.10/slf4j-api-1.7.10.pom"/>
 				<caller organisation="spark-scala-hadoop" name="spark-scala-hadoop$sources_2.11" conf="compile" rev="1.7.10" rev-constraint-default="1.7.10" rev-constraint-dynamic="1.7.10" callerrev="0.1"/>
 				<artifacts>
-					<artifact name="slf4j-api" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="50644" time="1282" location="C:\Users\ext-sunnyj\.ivy2\cache\org.slf4j\slf4j-api\srcs\slf4j-api-1.7.10-sources.jar">
+					<artifact name="slf4j-api" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="50644" time="0" location="C:\Users\ext-sunnyj\.ivy2\cache\org.slf4j\slf4j-api\srcs\slf4j-api-1.7.10-sources.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.10/slf4j-api-1.7.10-sources.jar"/>
 					</artifact>
 				</artifacts>
@@ -254,7 +269,7 @@
 					<artifact name="commons-collections" type="jar" ext="jar" status="no" details="" size="575389" time="0" location="C:\Users\ext-sunnyj\.ivy2\cache\commons-collections\commons-collections\jars\commons-collections-3.2.1.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/commons-collections/commons-collections/3.2.1/commons-collections-3.2.1.jar"/>
 					</artifact>
-					<artifact name="commons-collections" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="641582" time="1656" location="C:\Users\ext-sunnyj\.ivy2\cache\commons-collections\commons-collections\srcs\commons-collections-3.2.1-sources.jar">
+					<artifact name="commons-collections" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="641582" time="0" location="C:\Users\ext-sunnyj\.ivy2\cache\commons-collections\commons-collections\srcs\commons-collections-3.2.1-sources.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/commons-collections/commons-collections/3.2.1/commons-collections-3.2.1-sources.jar"/>
 					</artifact>
 				</artifacts>
@@ -265,7 +280,7 @@
 				<metadata-artifact status="no" details="" size="7893" time="0" location="C:\Users\ext-sunnyj\.ivy2\cache\commons-net\commons-net\ivy-3.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/commons-net/commons-net/3.1/commons-net-3.1.pom"/>
 				<caller organisation="spark-scala-hadoop" name="spark-scala-hadoop$sources_2.11" conf="compile" rev="3.1" rev-constraint-default="3.1" rev-constraint-dynamic="3.1" callerrev="0.1"/>
 				<artifacts>
-					<artifact name="commons-net" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="406713" time="1469" location="C:\Users\ext-sunnyj\.ivy2\cache\commons-net\commons-net\srcs\commons-net-3.1-sources.jar">
+					<artifact name="commons-net" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="406713" time="0" location="C:\Users\ext-sunnyj\.ivy2\cache\commons-net\commons-net\srcs\commons-net-3.1-sources.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/commons-net/commons-net/3.1/commons-net-3.1-sources.jar"/>
 					</artifact>
 					<artifact name="commons-net" type="jar" ext="jar" status="no" details="" size="273370" time="0" location="C:\Users\ext-sunnyj\.ivy2\cache\commons-net\commons-net\jars\commons-net-3.1.jar">
@@ -294,7 +309,7 @@
 				<metadata-artifact status="no" details="" size="43484" time="0" location="C:\Users\ext-sunnyj\.ivy2\cache\org.apache.hadoop\hadoop-annotations\ivy-2.7.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-annotations/2.7.1/hadoop-annotations-2.7.1.pom"/>
 				<caller organisation="spark-scala-hadoop" name="spark-scala-hadoop$sources_2.11" conf="compile" rev="2.7.1" rev-constraint-default="2.7.1" rev-constraint-dynamic="2.7.1" callerrev="0.1"/>
 				<artifacts>
-					<artifact name="hadoop-annotations" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="11796" time="1281" location="C:\Users\ext-sunnyj\.ivy2\cache\org.apache.hadoop\hadoop-annotations\srcs\hadoop-annotations-2.7.1-sources.jar">
+					<artifact name="hadoop-annotations" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="11796" time="0" location="C:\Users\ext-sunnyj\.ivy2\cache\org.apache.hadoop\hadoop-annotations\srcs\hadoop-annotations-2.7.1-sources.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-annotations/2.7.1/hadoop-annotations-2.7.1-sources.jar"/>
 					</artifact>
 					<artifact name="hadoop-annotations" type="jar" ext="jar" status="no" details="" size="17385" time="0" location="C:\Users\ext-sunnyj\.ivy2\cache\org.apache.hadoop\hadoop-annotations\jars\hadoop-annotations-2.7.1.jar">
@@ -319,7 +334,7 @@
 		</module>
 		<module organisation="org.apache.spark" name="spark-core_2.11">
 			<revision name="2.2.0" status="release" pubdate="20170701060432" resolver="public" artresolver="public" homepage="http://spark.apache.org/" downloaded="true" searched="true" default="false" conf="default, compile, runtime, default(compile), master" position="1">
-				<metadata-artifact status="successful" details="" size="21322" time="766" location="C:\Users\ext-sunnyj\.ivy2\cache\org.apache.spark\spark-core_2.11\ivy-2.2.0.xml" searched="true" original-local-location="C:\Users\ext-sunnyj\.ivy2\cache\org.apache.spark\spark-core_2.11\ivy-2.2.0.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/spark/spark-core_2.11/2.2.0/spark-core_2.11-2.2.0.pom"/>
+				<metadata-artifact status="successful" details="" size="21322" time="804" location="C:\Users\ext-sunnyj\.ivy2\cache\org.apache.spark\spark-core_2.11\ivy-2.2.0.xml" searched="true" original-local-location="C:\Users\ext-sunnyj\.ivy2\cache\org.apache.spark\spark-core_2.11\ivy-2.2.0.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/spark/spark-core_2.11/2.2.0/spark-core_2.11-2.2.0.pom"/>
 				<caller organisation="spark-scala-hadoop" name="spark-scala-hadoop$sources_2.11" conf="compile" rev="2.2.0" rev-constraint-default="2.2.0" rev-constraint-dynamic="2.2.0" callerrev="0.1"/>
 				<artifacts>
 					<artifact name="spark-core_2.11" type="jar" ext="jar" status="no" details="" size="12465629" time="0" location="C:\Users\ext-sunnyj\.ivy2\cache\org.apache.spark\spark-core_2.11\jars\spark-core_2.11-2.2.0.jar">
@@ -481,10 +496,10 @@
 				<metadata-artifact status="no" details="" size="5991" time="0" location="C:\Users\ext-sunnyj\.ivy2\cache\com.google.guava\guava\ivy-16.0.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/google/guava/guava/16.0.1/guava-16.0.1.pom"/>
 				<caller organisation="spark-scala-hadoop" name="spark-scala-hadoop$sources_2.11" conf="compile" rev="16.0.1" rev-constraint-default="16.0.1" rev-constraint-dynamic="16.0.1" callerrev="0.1"/>
 				<artifacts>
-					<artifact name="guava" type="jar" ext="jar" status="successful" details="" size="2228009" time="2938" location="C:\Users\ext-sunnyj\.ivy2\cache\com.google.guava\guava\jars\guava-16.0.1.jar">
+					<artifact name="guava" type="jar" ext="jar" status="no" details="" size="2228009" time="0" location="C:\Users\ext-sunnyj\.ivy2\cache\com.google.guava\guava\jars\guava-16.0.1.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/google/guava/guava/16.0.1/guava-16.0.1.jar"/>
 					</artifact>
-					<artifact name="guava" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="1261127" time="1891" location="C:\Users\ext-sunnyj\.ivy2\cache\com.google.guava\guava\srcs\guava-16.0.1-sources.jar">
+					<artifact name="guava" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="1261127" time="0" location="C:\Users\ext-sunnyj\.ivy2\cache\com.google.guava\guava\srcs\guava-16.0.1-sources.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/google/guava/guava/16.0.1/guava-16.0.1-sources.jar"/>
 					</artifact>
 				</artifacts>
@@ -1102,7 +1117,7 @@
 		</module>
 		<module organisation="org.apache.spark" name="spark-unsafe_2.11">
 			<revision name="2.2.0" status="release" pubdate="20170701060350" resolver="public" artresolver="public" homepage="http://spark.apache.org/" downloaded="true" searched="true" default="false" conf="default, compile, runtime, default(compile), master" position="57">
-				<metadata-artifact status="successful" details="" size="4906" time="766" location="C:\Users\ext-sunnyj\.ivy2\cache\org.apache.spark\spark-unsafe_2.11\ivy-2.2.0.xml" searched="true" original-local-location="C:\Users\ext-sunnyj\.ivy2\cache\org.apache.spark\spark-unsafe_2.11\ivy-2.2.0.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/spark/spark-unsafe_2.11/2.2.0/spark-unsafe_2.11-2.2.0.pom"/>
+				<metadata-artifact status="successful" details="" size="4906" time="1063" location="C:\Users\ext-sunnyj\.ivy2\cache\org.apache.spark\spark-unsafe_2.11\ivy-2.2.0.xml" searched="true" original-local-location="C:\Users\ext-sunnyj\.ivy2\cache\org.apache.spark\spark-unsafe_2.11\ivy-2.2.0.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/spark/spark-unsafe_2.11/2.2.0/spark-unsafe_2.11-2.2.0.pom"/>
 				<caller organisation="spark-scala-hadoop" name="spark-scala-hadoop$sources_2.11" conf="compile" rev="2.2.0" rev-constraint-default="2.2.0" rev-constraint-dynamic="2.2.0" callerrev="0.1"/>
 				<artifacts>
 					<artifact name="spark-unsafe_2.11" type="jar" ext="jar" status="no" details="" size="46531" time="0" location="C:\Users\ext-sunnyj\.ivy2\cache\org.apache.spark\spark-unsafe_2.11\jars\spark-unsafe_2.11-2.2.0.jar">
@@ -1116,7 +1131,7 @@
 		</module>
 		<module organisation="org.apache.spark" name="spark-network-shuffle_2.11">
 			<revision name="2.2.0" status="release" pubdate="20170701061036" resolver="public" artresolver="public" homepage="http://spark.apache.org/" downloaded="true" searched="true" default="false" conf="default, compile, runtime, default(compile), master" position="55">
-				<metadata-artifact status="successful" details="" size="4226" time="766" location="C:\Users\ext-sunnyj\.ivy2\cache\org.apache.spark\spark-network-shuffle_2.11\ivy-2.2.0.xml" searched="true" original-local-location="C:\Users\ext-sunnyj\.ivy2\cache\org.apache.spark\spark-network-shuffle_2.11\ivy-2.2.0.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/spark/spark-network-shuffle_2.11/2.2.0/spark-network-shuffle_2.11-2.2.0.pom"/>
+				<metadata-artifact status="successful" details="" size="4226" time="750" location="C:\Users\ext-sunnyj\.ivy2\cache\org.apache.spark\spark-network-shuffle_2.11\ivy-2.2.0.xml" searched="true" original-local-location="C:\Users\ext-sunnyj\.ivy2\cache\org.apache.spark\spark-network-shuffle_2.11\ivy-2.2.0.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/spark/spark-network-shuffle_2.11/2.2.0/spark-network-shuffle_2.11-2.2.0.pom"/>
 				<caller organisation="spark-scala-hadoop" name="spark-scala-hadoop$sources_2.11" conf="compile" rev="2.2.0" rev-constraint-default="2.2.0" rev-constraint-dynamic="2.2.0" callerrev="0.1"/>
 				<artifacts>
 					<artifact name="spark-network-shuffle_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="42555" time="0" location="C:\Users\ext-sunnyj\.ivy2\cache\org.apache.spark\spark-network-shuffle_2.11\srcs\spark-network-shuffle_2.11-2.2.0-sources.jar">
@@ -1144,7 +1159,7 @@
 		</module>
 		<module organisation="org.apache.spark" name="spark-network-common_2.11">
 			<revision name="2.2.0" status="release" pubdate="20170701060419" resolver="public" artresolver="public" homepage="http://spark.apache.org/" downloaded="true" searched="true" default="false" conf="default, compile, runtime, default(compile), master" position="48">
-				<metadata-artifact status="successful" details="" size="5486" time="766" location="C:\Users\ext-sunnyj\.ivy2\cache\org.apache.spark\spark-network-common_2.11\ivy-2.2.0.xml" searched="true" original-local-location="C:\Users\ext-sunnyj\.ivy2\cache\org.apache.spark\spark-network-common_2.11\ivy-2.2.0.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/spark/spark-network-common_2.11/2.2.0/spark-network-common_2.11-2.2.0.pom"/>
+				<metadata-artifact status="successful" details="" size="5486" time="750" location="C:\Users\ext-sunnyj\.ivy2\cache\org.apache.spark\spark-network-common_2.11\ivy-2.2.0.xml" searched="true" original-local-location="C:\Users\ext-sunnyj\.ivy2\cache\org.apache.spark\spark-network-common_2.11\ivy-2.2.0.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/spark/spark-network-common_2.11/2.2.0/spark-network-common_2.11-2.2.0.pom"/>
 				<caller organisation="spark-scala-hadoop" name="spark-scala-hadoop$sources_2.11" conf="compile" rev="2.2.0" rev-constraint-default="2.2.0" rev-constraint-dynamic="2.2.0" callerrev="0.1"/>
 				<artifacts>
 					<artifact name="spark-network-common_2.11" type="jar" ext="jar" status="no" details="" size="2375104" time="0" location="C:\Users\ext-sunnyj\.ivy2\cache\org.apache.spark\spark-network-common_2.11\jars\spark-network-common_2.11-2.2.0.jar">
@@ -1243,7 +1258,7 @@
 		</module>
 		<module organisation="org.apache.spark" name="spark-launcher_2.11">
 			<revision name="2.2.0" status="release" pubdate="20170701060817" resolver="public" artresolver="public" homepage="http://spark.apache.org/" downloaded="true" searched="true" default="false" conf="default, compile, runtime, default(compile), master" position="45">
-				<metadata-artifact status="successful" details="" size="6429" time="766" location="C:\Users\ext-sunnyj\.ivy2\cache\org.apache.spark\spark-launcher_2.11\ivy-2.2.0.xml" searched="true" original-local-location="C:\Users\ext-sunnyj\.ivy2\cache\org.apache.spark\spark-launcher_2.11\ivy-2.2.0.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/spark/spark-launcher_2.11/2.2.0/spark-launcher_2.11-2.2.0.pom"/>
+				<metadata-artifact status="successful" details="" size="6429" time="751" location="C:\Users\ext-sunnyj\.ivy2\cache\org.apache.spark\spark-launcher_2.11\ivy-2.2.0.xml" searched="true" original-local-location="C:\Users\ext-sunnyj\.ivy2\cache\org.apache.spark\spark-launcher_2.11\ivy-2.2.0.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/spark/spark-launcher_2.11/2.2.0/spark-launcher_2.11-2.2.0.pom"/>
 				<caller organisation="spark-scala-hadoop" name="spark-scala-hadoop$sources_2.11" conf="compile" rev="2.2.0" rev-constraint-default="2.2.0" rev-constraint-dynamic="2.2.0" callerrev="0.1"/>
 				<artifacts>
 					<artifact name="spark-launcher_2.11" type="jar" ext="jar" status="no" details="" size="66818" time="0" location="C:\Users\ext-sunnyj\.ivy2\cache\org.apache.spark\spark-launcher_2.11\jars\spark-launcher_2.11-2.2.0.jar">
@@ -1257,7 +1272,7 @@
 		</module>
 		<module organisation="org.apache.spark" name="spark-tags_2.11">
 			<revision name="2.2.0" status="release" pubdate="20170701060509" resolver="public" artresolver="public" homepage="http://spark.apache.org/" downloaded="true" searched="true" default="false" conf="default, compile, runtime, default(compile), master" position="46">
-				<metadata-artifact status="successful" details="" size="2327" time="766" location="C:\Users\ext-sunnyj\.ivy2\cache\org.apache.spark\spark-tags_2.11\ivy-2.2.0.xml" searched="true" original-local-location="C:\Users\ext-sunnyj\.ivy2\cache\org.apache.spark\spark-tags_2.11\ivy-2.2.0.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/spark/spark-tags_2.11/2.2.0/spark-tags_2.11-2.2.0.pom"/>
+				<metadata-artifact status="successful" details="" size="2327" time="750" location="C:\Users\ext-sunnyj\.ivy2\cache\org.apache.spark\spark-tags_2.11\ivy-2.2.0.xml" searched="true" original-local-location="C:\Users\ext-sunnyj\.ivy2\cache\org.apache.spark\spark-tags_2.11\ivy-2.2.0.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/spark/spark-tags_2.11/2.2.0/spark-tags_2.11-2.2.0.pom"/>
 				<caller organisation="spark-scala-hadoop" name="spark-scala-hadoop$sources_2.11" conf="compile" rev="2.2.0" rev-constraint-default="2.2.0" rev-constraint-dynamic="2.2.0" callerrev="0.1"/>
 				<artifacts>
 					<artifact name="spark-tags_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="14746" time="0" location="C:\Users\ext-sunnyj\.ivy2\cache\org.apache.spark\spark-tags_2.11\srcs\spark-tags_2.11-2.2.0-sources.jar">
@@ -1328,7 +1343,7 @@
 		</module>
 		<module organisation="org.apache.hadoop" name="hadoop-mapreduce-client-jobclient">
 			<revision name="2.6.5" status="release" pubdate="20161003045531" resolver="public" artresolver="public" homepage="" downloaded="true" searched="true" default="false" conf="default, compile, runtime, default(compile), master" position="42">
-				<metadata-artifact status="successful" details="" size="5656" time="781" location="C:\Users\ext-sunnyj\.ivy2\cache\org.apache.hadoop\hadoop-mapreduce-client-jobclient\ivy-2.6.5.xml" searched="true" original-local-location="C:\Users\ext-sunnyj\.ivy2\cache\org.apache.hadoop\hadoop-mapreduce-client-jobclient\ivy-2.6.5.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-mapreduce-client-jobclient/2.6.5/hadoop-mapreduce-client-jobclient-2.6.5.pom"/>
+				<metadata-artifact status="successful" details="" size="5656" time="750" location="C:\Users\ext-sunnyj\.ivy2\cache\org.apache.hadoop\hadoop-mapreduce-client-jobclient\ivy-2.6.5.xml" searched="true" original-local-location="C:\Users\ext-sunnyj\.ivy2\cache\org.apache.hadoop\hadoop-mapreduce-client-jobclient\ivy-2.6.5.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-mapreduce-client-jobclient/2.6.5/hadoop-mapreduce-client-jobclient-2.6.5.pom"/>
 				<caller organisation="spark-scala-hadoop" name="spark-scala-hadoop$sources_2.11" conf="compile" rev="2.6.5" rev-constraint-default="2.6.5" rev-constraint-dynamic="2.6.5" callerrev="0.1"/>
 				<artifacts>
 					<artifact name="hadoop-mapreduce-client-jobclient" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="45670" time="0" location="C:\Users\ext-sunnyj\.ivy2\cache\org.apache.hadoop\hadoop-mapreduce-client-jobclient\srcs\hadoop-mapreduce-client-jobclient-2.6.5-sources.jar">
@@ -1342,7 +1357,7 @@
 		</module>
 		<module organisation="org.apache.hadoop" name="hadoop-mapreduce-client-app">
 			<revision name="2.6.5" status="release" pubdate="20161003045452" resolver="public" artresolver="public" homepage="" downloaded="true" searched="true" default="false" conf="default, compile, runtime, default(compile), master" position="25">
-				<metadata-artifact status="successful" details="" size="4697" time="766" location="C:\Users\ext-sunnyj\.ivy2\cache\org.apache.hadoop\hadoop-mapreduce-client-app\ivy-2.6.5.xml" searched="true" original-local-location="C:\Users\ext-sunnyj\.ivy2\cache\org.apache.hadoop\hadoop-mapreduce-client-app\ivy-2.6.5.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-mapreduce-client-app/2.6.5/hadoop-mapreduce-client-app-2.6.5.pom"/>
+				<metadata-artifact status="successful" details="" size="4697" time="750" location="C:\Users\ext-sunnyj\.ivy2\cache\org.apache.hadoop\hadoop-mapreduce-client-app\ivy-2.6.5.xml" searched="true" original-local-location="C:\Users\ext-sunnyj\.ivy2\cache\org.apache.hadoop\hadoop-mapreduce-client-app\ivy-2.6.5.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-mapreduce-client-app/2.6.5/hadoop-mapreduce-client-app-2.6.5.pom"/>
 				<caller organisation="spark-scala-hadoop" name="spark-scala-hadoop$sources_2.11" conf="compile" rev="2.6.5" rev-constraint-default="2.6.5" rev-constraint-dynamic="2.6.5" callerrev="0.1"/>
 				<artifacts>
 					<artifact name="hadoop-mapreduce-client-app" type="jar" ext="jar" status="no" details="" size="528586" time="0" location="C:\Users\ext-sunnyj\.ivy2\cache\org.apache.hadoop\hadoop-mapreduce-client-app\jars\hadoop-mapreduce-client-app-2.6.5.jar">
@@ -1356,7 +1371,7 @@
 		</module>
 		<module organisation="org.apache.hadoop" name="hadoop-mapreduce-client-shuffle">
 			<revision name="2.6.5" status="release" pubdate="20161003045435" resolver="public" artresolver="public" homepage="" downloaded="true" searched="true" default="false" conf="default, compile, runtime, default(compile), master" position="41">
-				<metadata-artifact status="successful" details="" size="3071" time="766" location="C:\Users\ext-sunnyj\.ivy2\cache\org.apache.hadoop\hadoop-mapreduce-client-shuffle\ivy-2.6.5.xml" searched="true" original-local-location="C:\Users\ext-sunnyj\.ivy2\cache\org.apache.hadoop\hadoop-mapreduce-client-shuffle\ivy-2.6.5.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-mapreduce-client-shuffle/2.6.5/hadoop-mapreduce-client-shuffle-2.6.5.pom"/>
+				<metadata-artifact status="successful" details="" size="3071" time="765" location="C:\Users\ext-sunnyj\.ivy2\cache\org.apache.hadoop\hadoop-mapreduce-client-shuffle\ivy-2.6.5.xml" searched="true" original-local-location="C:\Users\ext-sunnyj\.ivy2\cache\org.apache.hadoop\hadoop-mapreduce-client-shuffle\ivy-2.6.5.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-mapreduce-client-shuffle/2.6.5/hadoop-mapreduce-client-shuffle-2.6.5.pom"/>
 				<caller organisation="spark-scala-hadoop" name="spark-scala-hadoop$sources_2.11" conf="compile" rev="2.6.5" rev-constraint-default="2.6.5" rev-constraint-dynamic="2.6.5" callerrev="0.1"/>
 				<artifacts>
 					<artifact name="hadoop-mapreduce-client-shuffle" type="jar" ext="jar" status="no" details="" size="67772" time="0" location="C:\Users\ext-sunnyj\.ivy2\cache\org.apache.hadoop\hadoop-mapreduce-client-shuffle\jars\hadoop-mapreduce-client-shuffle-2.6.5.jar">
@@ -1384,7 +1399,7 @@
 		</module>
 		<module organisation="org.apache.hadoop" name="hadoop-mapreduce-client-common">
 			<revision name="2.6.5" status="release" pubdate="20161003045418" resolver="public" artresolver="public" homepage="" downloaded="true" searched="true" default="false" conf="default, compile, runtime, default(compile), master" position="26">
-				<metadata-artifact status="successful" details="" size="3273" time="766" location="C:\Users\ext-sunnyj\.ivy2\cache\org.apache.hadoop\hadoop-mapreduce-client-common\ivy-2.6.5.xml" searched="true" original-local-location="C:\Users\ext-sunnyj\.ivy2\cache\org.apache.hadoop\hadoop-mapreduce-client-common\ivy-2.6.5.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-mapreduce-client-common/2.6.5/hadoop-mapreduce-client-common-2.6.5.pom"/>
+				<metadata-artifact status="successful" details="" size="3273" time="750" location="C:\Users\ext-sunnyj\.ivy2\cache\org.apache.hadoop\hadoop-mapreduce-client-common\ivy-2.6.5.xml" searched="true" original-local-location="C:\Users\ext-sunnyj\.ivy2\cache\org.apache.hadoop\hadoop-mapreduce-client-common\ivy-2.6.5.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-mapreduce-client-common/2.6.5/hadoop-mapreduce-client-common-2.6.5.pom"/>
 				<caller organisation="spark-scala-hadoop" name="spark-scala-hadoop$sources_2.11" conf="compile" rev="2.6.5" rev-constraint-default="2.6.5" rev-constraint-dynamic="2.6.5" callerrev="0.1"/>
 				<artifacts>
 					<artifact name="hadoop-mapreduce-client-common" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="272151" time="0" location="C:\Users\ext-sunnyj\.ivy2\cache\org.apache.hadoop\hadoop-mapreduce-client-common\srcs\hadoop-mapreduce-client-common-2.6.5-sources.jar">
@@ -1398,7 +1413,7 @@
 		</module>
 		<module organisation="org.apache.hadoop" name="hadoop-mapreduce-client-core">
 			<revision name="2.6.5" status="release" pubdate="20161003045350" resolver="public" artresolver="public" homepage="" downloaded="true" searched="true" default="false" conf="default, compile, runtime, default(compile), master" position="38">
-				<metadata-artifact status="successful" details="" size="3492" time="757" location="C:\Users\ext-sunnyj\.ivy2\cache\org.apache.hadoop\hadoop-mapreduce-client-core\ivy-2.6.5.xml" searched="true" original-local-location="C:\Users\ext-sunnyj\.ivy2\cache\org.apache.hadoop\hadoop-mapreduce-client-core\ivy-2.6.5.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-mapreduce-client-core/2.6.5/hadoop-mapreduce-client-core-2.6.5.pom"/>
+				<metadata-artifact status="successful" details="" size="3492" time="750" location="C:\Users\ext-sunnyj\.ivy2\cache\org.apache.hadoop\hadoop-mapreduce-client-core\ivy-2.6.5.xml" searched="true" original-local-location="C:\Users\ext-sunnyj\.ivy2\cache\org.apache.hadoop\hadoop-mapreduce-client-core\ivy-2.6.5.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-mapreduce-client-core/2.6.5/hadoop-mapreduce-client-core-2.6.5.pom"/>
 				<caller organisation="spark-scala-hadoop" name="spark-scala-hadoop$sources_2.11" conf="compile" rev="2.6.5" rev-constraint-default="2.6.5" rev-constraint-dynamic="2.6.5" callerrev="0.1"/>
 				<artifacts>
 					<artifact name="hadoop-mapreduce-client-core" type="jar" ext="jar" status="no" details="" size="1537966" time="0" location="C:\Users\ext-sunnyj\.ivy2\cache\org.apache.hadoop\hadoop-mapreduce-client-core\jars\hadoop-mapreduce-client-core-2.6.5.jar">
@@ -1471,10 +1486,10 @@
 				<metadata-artifact status="no" details="" size="5868" time="0" location="C:\Users\ext-sunnyj\.ivy2\cache\com.sun.jersey\jersey-json\ivy-1.9.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/sun/jersey/jersey-json/1.9/jersey-json-1.9.pom"/>
 				<caller organisation="spark-scala-hadoop" name="spark-scala-hadoop$sources_2.11" conf="compile" rev="1.9" rev-constraint-default="1.9" rev-constraint-dynamic="1.9" callerrev="0.1"/>
 				<artifacts>
-					<artifact name="jersey-json" type="jar" ext="jar" status="successful" details="" size="147952" time="843" location="C:\Users\ext-sunnyj\.ivy2\cache\com.sun.jersey\jersey-json\jars\jersey-json-1.9.jar">
+					<artifact name="jersey-json" type="jar" ext="jar" status="no" details="" size="147952" time="0" location="C:\Users\ext-sunnyj\.ivy2\cache\com.sun.jersey\jersey-json\jars\jersey-json-1.9.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/sun/jersey/jersey-json/1.9/jersey-json-1.9.jar"/>
 					</artifact>
-					<artifact name="jersey-json" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="113614" time="1328" location="C:\Users\ext-sunnyj\.ivy2\cache\com.sun.jersey\jersey-json\srcs\jersey-json-1.9-sources.jar">
+					<artifact name="jersey-json" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="113614" time="0" location="C:\Users\ext-sunnyj\.ivy2\cache\com.sun.jersey\jersey-json\srcs\jersey-json-1.9-sources.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/sun/jersey/jersey-json/1.9/jersey-json-1.9-sources.jar"/>
 					</artifact>
 				</artifacts>
@@ -1490,7 +1505,7 @@
 					<artifact name="jaxb-impl" type="jar" ext="jar" status="no" details="" size="890168" time="0" location="C:\Users\ext-sunnyj\.ivy2\cache\com.sun.xml.bind\jaxb-impl\jars\jaxb-impl-2.2.3-1.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/sun/xml/bind/jaxb-impl/2.2.3-1/jaxb-impl-2.2.3-1.jar"/>
 					</artifact>
-					<artifact name="jaxb-impl" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="1123574" time="1872" location="C:\Users\ext-sunnyj\.ivy2\cache\com.sun.xml.bind\jaxb-impl\srcs\jaxb-impl-2.2.3-1-sources.jar">
+					<artifact name="jaxb-impl" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="1123574" time="0" location="C:\Users\ext-sunnyj\.ivy2\cache\com.sun.xml.bind\jaxb-impl\srcs\jaxb-impl-2.2.3-1-sources.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/sun/xml/bind/jaxb-impl/2.2.3-1/jaxb-impl-2.2.3-1-sources.jar"/>
 					</artifact>
 				</artifacts>
@@ -1683,7 +1698,7 @@
 					<artifact name="servlet-api" type="jar" ext="jar" status="no" details="" size="105112" time="0" location="C:\Users\ext-sunnyj\.ivy2\cache\javax.servlet\servlet-api\jars\servlet-api-2.5.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/javax/servlet/servlet-api/2.5/servlet-api-2.5.jar"/>
 					</artifact>
-					<artifact name="servlet-api" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="158114" time="1360" location="C:\Users\ext-sunnyj\.ivy2\cache\javax.servlet\servlet-api\srcs\servlet-api-2.5-sources.jar">
+					<artifact name="servlet-api" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="158114" time="0" location="C:\Users\ext-sunnyj\.ivy2\cache\javax.servlet\servlet-api\srcs\servlet-api-2.5-sources.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/javax/servlet/servlet-api/2.5/servlet-api-2.5-sources.jar"/>
 					</artifact>
 				</artifacts>
@@ -1712,7 +1727,7 @@
 					<artifact name="jsp-api" type="jar" ext="jar" status="no" details="" size="100636" time="0" location="C:\Users\ext-sunnyj\.ivy2\cache\javax.servlet.jsp\jsp-api\jars\jsp-api-2.1.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/javax/servlet/jsp/jsp-api/2.1/jsp-api-2.1.jar"/>
 					</artifact>
-					<artifact name="jsp-api" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="208969" time="1391" location="C:\Users\ext-sunnyj\.ivy2\cache\javax.servlet.jsp\jsp-api\srcs\jsp-api-2.1-sources.jar">
+					<artifact name="jsp-api" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="208969" time="0" location="C:\Users\ext-sunnyj\.ivy2\cache\javax.servlet.jsp\jsp-api\srcs\jsp-api-2.1-sources.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/javax/servlet/jsp/jsp-api/2.1/jsp-api-2.1-sources.jar"/>
 					</artifact>
 				</artifacts>
@@ -1726,7 +1741,7 @@
 					<artifact name="commons-logging" type="jar" ext="jar" status="no" details="" size="62050" time="0" location="C:\Users\ext-sunnyj\.ivy2\cache\commons-logging\commons-logging\jars\commons-logging-1.1.3.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/commons-logging/commons-logging/1.1.3/commons-logging-1.1.3.jar"/>
 					</artifact>
-					<artifact name="commons-logging" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="73915" time="1313" location="C:\Users\ext-sunnyj\.ivy2\cache\commons-logging\commons-logging\srcs\commons-logging-1.1.3-sources.jar">
+					<artifact name="commons-logging" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="73915" time="0" location="C:\Users\ext-sunnyj\.ivy2\cache\commons-logging\commons-logging\srcs\commons-logging-1.1.3-sources.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/commons-logging/commons-logging/1.1.3/commons-logging-1.1.3-sources.jar"/>
 					</artifact>
 				</artifacts>
@@ -1808,10 +1823,10 @@
 				<metadata-artifact status="no" details="" size="6377" time="0" location="C:\Users\ext-sunnyj\.ivy2\cache\com.sun.jersey\jersey-server\ivy-1.9.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/sun/jersey/jersey-server/1.9/jersey-server-1.9.pom"/>
 				<caller organisation="spark-scala-hadoop" name="spark-scala-hadoop$sources_2.11" conf="compile" rev="1.9" rev-constraint-default="1.9" rev-constraint-dynamic="1.9" callerrev="0.1"/>
 				<artifacts>
-					<artifact name="jersey-server" type="jar" ext="jar" status="successful" details="" size="713089" time="1094" location="C:\Users\ext-sunnyj\.ivy2\cache\com.sun.jersey\jersey-server\jars\jersey-server-1.9.jar">
+					<artifact name="jersey-server" type="jar" ext="jar" status="no" details="" size="713089" time="0" location="C:\Users\ext-sunnyj\.ivy2\cache\com.sun.jersey\jersey-server\jars\jersey-server-1.9.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/sun/jersey/jersey-server/1.9/jersey-server-1.9.jar"/>
 					</artifact>
-					<artifact name="jersey-server" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="658444" time="1578" location="C:\Users\ext-sunnyj\.ivy2\cache\com.sun.jersey\jersey-server\srcs\jersey-server-1.9-sources.jar">
+					<artifact name="jersey-server" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="658444" time="0" location="C:\Users\ext-sunnyj\.ivy2\cache\com.sun.jersey\jersey-server\srcs\jersey-server-1.9-sources.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/sun/jersey/jersey-server/1.9/jersey-server-1.9-sources.jar"/>
 					</artifact>
 				</artifacts>
@@ -1825,7 +1840,7 @@
 					<artifact name="asm" type="jar" ext="jar" status="no" details="" size="43033" time="0" location="C:\Users\ext-sunnyj\.ivy2\cache\asm\asm\jars\asm-3.1.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/asm/asm/3.1/asm-3.1.jar"/>
 					</artifact>
-					<artifact name="asm" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="108730" time="1312" location="C:\Users\ext-sunnyj\.ivy2\cache\asm\asm\srcs\asm-3.1-sources.jar">
+					<artifact name="asm" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="108730" time="0" location="C:\Users\ext-sunnyj\.ivy2\cache\asm\asm\srcs\asm-3.1-sources.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/asm/asm/3.1/asm-3.1-sources.jar"/>
 					</artifact>
 				</artifacts>
@@ -1836,10 +1851,10 @@
 				<metadata-artifact status="no" details="" size="5490" time="0" location="C:\Users\ext-sunnyj\.ivy2\cache\com.sun.jersey\jersey-core\ivy-1.9.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/sun/jersey/jersey-core/1.9/jersey-core-1.9.pom"/>
 				<caller organisation="spark-scala-hadoop" name="spark-scala-hadoop$sources_2.11" conf="compile" rev="1.9" rev-constraint-default="1.9" rev-constraint-dynamic="1.9" callerrev="0.1"/>
 				<artifacts>
-					<artifact name="jersey-core" type="jar" ext="jar" status="successful" details="" size="458739" time="1016" location="C:\Users\ext-sunnyj\.ivy2\cache\com.sun.jersey\jersey-core\jars\jersey-core-1.9.jar">
+					<artifact name="jersey-core" type="jar" ext="jar" status="no" details="" size="458739" time="0" location="C:\Users\ext-sunnyj\.ivy2\cache\com.sun.jersey\jersey-core\jars\jersey-core-1.9.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/sun/jersey/jersey-core/1.9/jersey-core-1.9.jar"/>
 					</artifact>
-					<artifact name="jersey-core" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="431251" time="1485" location="C:\Users\ext-sunnyj\.ivy2\cache\com.sun.jersey\jersey-core\srcs\jersey-core-1.9-sources.jar">
+					<artifact name="jersey-core" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="431251" time="0" location="C:\Users\ext-sunnyj\.ivy2\cache\com.sun.jersey\jersey-core\srcs\jersey-core-1.9-sources.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/sun/jersey/jersey-core/1.9/jersey-core-1.9-sources.jar"/>
 					</artifact>
 				</artifacts>
@@ -1984,7 +1999,7 @@
 					<artifact name="jetty" type="jar" ext="jar" status="no" details="" size="539912" time="0" location="C:\Users\ext-sunnyj\.ivy2\cache\org.mortbay.jetty\jetty\jars\jetty-6.1.26.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/mortbay/jetty/jetty/6.1.26/jetty-6.1.26.jar"/>
 					</artifact>
-					<artifact name="jetty" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="395643" time="1454" location="C:\Users\ext-sunnyj\.ivy2\cache\org.mortbay.jetty\jetty\srcs\jetty-6.1.26-sources.jar">
+					<artifact name="jetty" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="395643" time="0" location="C:\Users\ext-sunnyj\.ivy2\cache\org.mortbay.jetty\jetty\srcs\jetty-6.1.26-sources.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/mortbay/jetty/jetty/6.1.26/jetty-6.1.26-sources.jar"/>
 					</artifact>
 				</artifacts>

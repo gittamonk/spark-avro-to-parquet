@@ -10,6 +10,8 @@ libraryDependencies += "org.apache.spark" %% "spark-core" % "2.2.0"
 // https://mvnrepository.com/artifact/org.apache.hadoop/hadoop-common
 libraryDependencies += "org.apache.hadoop" % "hadoop-common" % "2.7.1"
 
+// https://mvnrepository.com/artifact/com.github.scopt/scopt
+libraryDependencies += "com.github.scopt" %% "scopt" % "3.5.0"
 
 
 

@@ -4,7 +4,7 @@
 		module="spark-scala-hadoop$sbt_2.11"
 		revision="0.1"
 		status="integration"
-		publication="20180904112228"
+		publication="20180904121418"
 	/>
 	<configurations>
 		<conf name="default" visibility="public"/>
