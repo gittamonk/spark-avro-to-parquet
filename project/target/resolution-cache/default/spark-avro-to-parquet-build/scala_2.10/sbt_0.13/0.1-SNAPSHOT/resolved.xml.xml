@@ -4,7 +4,7 @@
 		module="spark-avro-to-parquet-build"
 		revision="0.1-SNAPSHOT"
 		status="integration"
-		publication="20180903213427"
+		publication="20180905011543"
 		e:sbtVersion="0.13" e:scalaVersion="2.10"
 	>
 		<description>

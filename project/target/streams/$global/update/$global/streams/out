@@ -1,4 +1,4 @@
-[0m[[0minfo[0m] [0mUpdating {file:/C:/Users/ext-sunnyj/IdeaProjects/spark-avro-to-parquet/project/}spark-avro-to-parquet-build...[0m
+[0m[[0minfo[0m] [0mUpdating {file:/D:/Projects/IdeaProjects/spark-avro-to-parquet/project/}spark-avro-to-parquet-build...[0m
 [0m[[0mdebug[0m] [0m:: resolving dependencies :: default#spark-avro-to-parquet-build;0.1-SNAPSHOT[0m
 [0m[[0mdebug[0m] [0m	confs: [compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool][0m
 [0m[[0mdebug[0m] [0m	validate = true[0m
@@ -42,7 +42,7 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies for default#spark-avro-to-parquet-build;0.1-SNAPSHOT [provided][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#spark-avro-to-parquet-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [provided->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving org.scala-lang#scala-library;2.10.4 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7bb44ee2[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5a731748[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang#scala-library;2.10.4[0m
 [0m[[0mdebug[0m] [0m	found org.scala-lang#scala-library;2.10.4 in sbt-chain[0m
 [0m[[0mdebug[0m] [0m	[2.10.4] org.scala-lang#scala-library;2.10.4[0m
@@ -1809,19 +1809,19 @@
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-sbt#apply-macro;0.13.8!apply-macro.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#jline;2.10.4!jline.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.fusesource.jansi#jansi;1.4!jansi.jar[0m
-[0m[[0mdebug[0m] [0m:: resolution report :: resolve 627ms :: artifacts dl 47ms[0m
-[0m[[0mdebug[0m] [0m	report for default#spark-avro-to-parquet-build;0.1-SNAPSHOT compile produced in C:\Users\ext-sunnyj\IdeaProjects\spark-avro-to-parquet\project\target\resolution-cache\reports\default-spark-avro-to-parquet-build-compile.xml[0m
-[0m[[0mdebug[0m] [0m	report for default#spark-avro-to-parquet-build;0.1-SNAPSHOT runtime produced in C:\Users\ext-sunnyj\IdeaProjects\spark-avro-to-parquet\project\target\resolution-cache\reports\default-spark-avro-to-parquet-build-runtime.xml[0m
-[0m[[0mdebug[0m] [0m	report for default#spark-avro-to-parquet-build;0.1-SNAPSHOT test produced in C:\Users\ext-sunnyj\IdeaProjects\spark-avro-to-parquet\project\target\resolution-cache\reports\default-spark-avro-to-parquet-build-test.xml[0m
-[0m[[0mdebug[0m] [0m	report for default#spark-avro-to-parquet-build;0.1-SNAPSHOT provided produced in C:\Users\ext-sunnyj\IdeaProjects\spark-avro-to-parquet\project\target\resolution-cache\reports\default-spark-avro-to-parquet-build-provided.xml[0m
-[0m[[0mdebug[0m] [0m	report for default#spark-avro-to-parquet-build;0.1-SNAPSHOT optional produced in C:\Users\ext-sunnyj\IdeaProjects\spark-avro-to-parquet\project\target\resolution-cache\reports\default-spark-avro-to-parquet-build-optional.xml[0m
-[0m[[0mdebug[0m] [0m	report for default#spark-avro-to-parquet-build;0.1-SNAPSHOT compile-internal produced in C:\Users\ext-sunnyj\IdeaProjects\spark-avro-to-parquet\project\target\resolution-cache\reports\default-spark-avro-to-parquet-build-compile-internal.xml[0m
-[0m[[0mdebug[0m] [0m	report for default#spark-avro-to-parquet-build;0.1-SNAPSHOT runtime-internal produced in C:\Users\ext-sunnyj\IdeaProjects\spark-avro-to-parquet\project\target\resolution-cache\reports\default-spark-avro-to-parquet-build-runtime-internal.xml[0m
-[0m[[0mdebug[0m] [0m	report for default#spark-avro-to-parquet-build;0.1-SNAPSHOT test-internal produced in C:\Users\ext-sunnyj\IdeaProjects\spark-avro-to-parquet\project\target\resolution-cache\reports\default-spark-avro-to-parquet-build-test-internal.xml[0m
-[0m[[0mdebug[0m] [0m	report for default#spark-avro-to-parquet-build;0.1-SNAPSHOT plugin produced in C:\Users\ext-sunnyj\IdeaProjects\spark-avro-to-parquet\project\target\resolution-cache\reports\default-spark-avro-to-parquet-build-plugin.xml[0m
-[0m[[0mdebug[0m] [0m	report for default#spark-avro-to-parquet-build;0.1-SNAPSHOT sources produced in C:\Users\ext-sunnyj\IdeaProjects\spark-avro-to-parquet\project\target\resolution-cache\reports\default-spark-avro-to-parquet-build-sources.xml[0m
-[0m[[0mdebug[0m] [0m	report for default#spark-avro-to-parquet-build;0.1-SNAPSHOT docs produced in C:\Users\ext-sunnyj\IdeaProjects\spark-avro-to-parquet\project\target\resolution-cache\reports\default-spark-avro-to-parquet-build-docs.xml[0m
-[0m[[0mdebug[0m] [0m	report for default#spark-avro-to-parquet-build;0.1-SNAPSHOT pom produced in C:\Users\ext-sunnyj\IdeaProjects\spark-avro-to-parquet\project\target\resolution-cache\reports\default-spark-avro-to-parquet-build-pom.xml[0m
-[0m[[0mdebug[0m] [0m	report for default#spark-avro-to-parquet-build;0.1-SNAPSHOT scala-tool produced in C:\Users\ext-sunnyj\IdeaProjects\spark-avro-to-parquet\project\target\resolution-cache\reports\default-spark-avro-to-parquet-build-scala-tool.xml[0m
-[0m[[0mdebug[0m] [0m	resolve done (627ms resolve - 47ms download)[0m
+[0m[[0mdebug[0m] [0m:: resolution report :: resolve 3003ms :: artifacts dl 83ms[0m
+[0m[[0mdebug[0m] [0m	report for default#spark-avro-to-parquet-build;0.1-SNAPSHOT compile produced in D:\Projects\IdeaProjects\spark-avro-to-parquet\project\target\resolution-cache\reports\default-spark-avro-to-parquet-build-compile.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#spark-avro-to-parquet-build;0.1-SNAPSHOT runtime produced in D:\Projects\IdeaProjects\spark-avro-to-parquet\project\target\resolution-cache\reports\default-spark-avro-to-parquet-build-runtime.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#spark-avro-to-parquet-build;0.1-SNAPSHOT test produced in D:\Projects\IdeaProjects\spark-avro-to-parquet\project\target\resolution-cache\reports\default-spark-avro-to-parquet-build-test.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#spark-avro-to-parquet-build;0.1-SNAPSHOT provided produced in D:\Projects\IdeaProjects\spark-avro-to-parquet\project\target\resolution-cache\reports\default-spark-avro-to-parquet-build-provided.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#spark-avro-to-parquet-build;0.1-SNAPSHOT optional produced in D:\Projects\IdeaProjects\spark-avro-to-parquet\project\target\resolution-cache\reports\default-spark-avro-to-parquet-build-optional.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#spark-avro-to-parquet-build;0.1-SNAPSHOT compile-internal produced in D:\Projects\IdeaProjects\spark-avro-to-parquet\project\target\resolution-cache\reports\default-spark-avro-to-parquet-build-compile-internal.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#spark-avro-to-parquet-build;0.1-SNAPSHOT runtime-internal produced in D:\Projects\IdeaProjects\spark-avro-to-parquet\project\target\resolution-cache\reports\default-spark-avro-to-parquet-build-runtime-internal.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#spark-avro-to-parquet-build;0.1-SNAPSHOT test-internal produced in D:\Projects\IdeaProjects\spark-avro-to-parquet\project\target\resolution-cache\reports\default-spark-avro-to-parquet-build-test-internal.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#spark-avro-to-parquet-build;0.1-SNAPSHOT plugin produced in D:\Projects\IdeaProjects\spark-avro-to-parquet\project\target\resolution-cache\reports\default-spark-avro-to-parquet-build-plugin.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#spark-avro-to-parquet-build;0.1-SNAPSHOT sources produced in D:\Projects\IdeaProjects\spark-avro-to-parquet\project\target\resolution-cache\reports\default-spark-avro-to-parquet-build-sources.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#spark-avro-to-parquet-build;0.1-SNAPSHOT docs produced in D:\Projects\IdeaProjects\spark-avro-to-parquet\project\target\resolution-cache\reports\default-spark-avro-to-parquet-build-docs.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#spark-avro-to-parquet-build;0.1-SNAPSHOT pom produced in D:\Projects\IdeaProjects\spark-avro-to-parquet\project\target\resolution-cache\reports\default-spark-avro-to-parquet-build-pom.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#spark-avro-to-parquet-build;0.1-SNAPSHOT scala-tool produced in D:\Projects\IdeaProjects\spark-avro-to-parquet\project\target\resolution-cache\reports\default-spark-avro-to-parquet-build-scala-tool.xml[0m
+[0m[[0mdebug[0m] [0m	resolve done (3003ms resolve - 83ms download)[0m
 [0m[[0minfo[0m] [0mDone updating.[0m
