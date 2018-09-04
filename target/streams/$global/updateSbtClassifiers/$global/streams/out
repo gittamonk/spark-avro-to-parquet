@@ -7,6 +7,7 @@
 [0m[[0mdebug[0m] [0m	refresh = false[0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'default'[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies for spark-scala-hadoop#spark-scala-hadoop$sbt_2.11;0.1 [default][0m
+[0m[[0mdebug[0m] [0mno default cache defined: set to C:\Users\ext-sunnyj\.ivy2\cache[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies spark-scala-hadoop#spark-scala-hadoop$sbt_2.11;0.1->org.scala-sbt#sbt;0.13.8 [default->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving org.scala-sbt#sbt;0.13.8 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scala-sbt#sbt;0.13.8 {default=[default(compile)]}[0m
@@ -717,9 +718,9 @@
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-sbt#test-agent;0.13.8!test-agent.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-sbt#test-interface;1.0!test-interface.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-sbt#apply-macro;0.13.8!apply-macro.jar[0m
-[0m[[0mdebug[0m] [0m:: resolution report :: resolve 375ms :: artifacts dl 31ms[0m
+[0m[[0mdebug[0m] [0m:: resolution report :: resolve 406ms :: artifacts dl 31ms[0m
 [0m[[0mdebug[0m] [0m	report for spark-scala-hadoop#spark-scala-hadoop$sbt_2.11;0.1 default produced in C:\Users\ext-sunnyj\IdeaProjects\spark-avro-to-parquet\target\resolution-cache\reports\spark-scala-hadoop-spark-scala-hadoop$sbt_2.11-default.xml[0m
-[0m[[0mdebug[0m] [0m	resolve done (375ms resolve - 31ms download)[0m
+[0m[[0mdebug[0m] [0m	resolve done (406ms resolve - 31ms download)[0m
 [0m[[0mdebug[0m] [0mUsing inline dependencies specified in Scala.[0m
 [0m[[0mdebug[0m] [0m:: resolving dependencies :: spark-scala-hadoop#spark-scala-hadoop$sources_2.11;0.1[0m
 [0m[[0mdebug[0m] [0m	confs: [default][0m
@@ -1097,6 +1098,6 @@
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-sbt#precompiled-2_9_3;0.13.8!precompiled-2_9_3.jar(src)[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.jetbrains#sbt-structure-extractor;2017.2!sbt-structure-extractor.jar(src)[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.jetbrains#sbt-idea-shell;2017.2!sbt-idea-shell.jar(src)[0m
-[0m[[0mdebug[0m] [0m:: resolution report :: resolve 109ms :: artifacts dl 31ms[0m
+[0m[[0mdebug[0m] [0m:: resolution report :: resolve 141ms :: artifacts dl 31ms[0m
 [0m[[0mdebug[0m] [0m	report for spark-scala-hadoop#spark-scala-hadoop$sources_2.11;0.1 default produced in C:\Users\ext-sunnyj\IdeaProjects\spark-avro-to-parquet\target\resolution-cache\reports\spark-scala-hadoop-spark-scala-hadoop$sources_2.11-default.xml[0m
-[0m[[0mdebug[0m] [0m	resolve done (109ms resolve - 31ms download)[0m
+[0m[[0mdebug[0m] [0m	resolve done (141ms resolve - 31ms download)[0m
